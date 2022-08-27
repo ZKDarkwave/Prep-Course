@@ -1,0 +1,7 @@
+---------------------------------------------------
+                   Variables
+---------------------------------------------------
+Para mi una variables es una caja donde se le puede almacenar un valor u contenido.
+Una variable se puede manipular u restablecer a cualquier tipo.
+
+

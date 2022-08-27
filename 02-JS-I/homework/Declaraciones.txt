@@ -1,0 +1,14 @@
+-------------------------------------
+         Declaraciones
+-------------------------------------
+Basicamente el if declara condiciones.
+Es decir si cumple esta condicion ejecuta este codigo.
+if (edad > 21) {
+    console.log("Sos viejo");
+   } else {
+     console.log("Sos joven");
+   }
+Es decir este algoritmo basicamente lo que hace es ponerle una condicion.
+Explico: Si la condicion de edad es mayor a 21 Sos viejo
+         Sino Sos joven.
+

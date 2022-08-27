@@ -1,0 +1,20 @@
+#!/usr/bin/bash
+
+#--------------------------------------------------
+#            Funciones
+#--------------------------------------------------
+#Una funcion es instrucciones de codigo que luego se pueden invocar y reutilizar.
+#Se escriben de diferentes formas. 
+#Entre parentesis() van los argumentos que pongamos
+ #y entre llaves{} va el codigo de la funcion. 
+#Por ej:
+function presentar(nombre, bien ) {
+   console.log('Hola, bienvenido ' + nombre );
+   console.log('A mi texto ' + 'espero lo pases' + bien)
+}
+#Muchas funciones vienen con los lenguajes.
+#La funcion Return  basicamente retorna el valor dentro de la funcion.
+   function suma(a, b) {
+        return a + b;
+   }
+

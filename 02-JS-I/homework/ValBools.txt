@@ -1,0 +1,8 @@
+--------------------------------------------------
+             Valores Booleanos
+--------------------------------------------------
+Se definen entre 2 valores
+true 
+or
+false
+Tambien se puede considerar como valores logicos.

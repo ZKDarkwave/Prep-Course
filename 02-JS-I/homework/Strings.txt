@@ -1,0 +1,6 @@
+-----------------------------------------------------
+                  Strings 
+-----------------------------------------------------
+Un str (strings) es una cadena de caracteres donde almacenamos palabras entre 
+'comillas'.
+
