@@ -1,0 +1,122 @@
+#spanid {
+ position:absolute;
+  display: inline-block;
+   left:55%;
+   top:2%;
+   bottom:50%;
+   width:44%;
+   height:49%;
+   text-align:left;
+   border: 4px rgb(0,0,0) inset;
+   background-color: mediumaquamarine;
+}
+body {
+  font-family: monospace;
+  background:  tomato;
+
+}
+.contenedor {
+  margin: auto;
+
+}
+h1{
+  float: left;
+  color: #fff;
+  position: relative;
+}
+
+h1 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: tomato;
+  border-left: 1px solid #000;
+
+  animation: maquina 5s infinite ;
+}
+@keyframes maquina {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+
+}
+.divclass {
+
+  height: 50%;
+  width: 50%;
+  bottom: 60%;
+  text-align: left;
+  background-color: #D94CBF;
+  border: dashed double;
+
+}
+#title {
+  background-color: whitesmoke;
+  border:  double;
+  font-size: 25px;
+
+}
+.boxClass {
+  background-color: ghostwhite;
+  font-size: 20px;
+  border: dashed;
+  height: 25%;
+  width: 50%;
+
+}
+#a {
+  background-color: lightgrey;
+  font-family: fantasy;
+  color: darkred;
+}
+
+#spanID {
+  background-color: #D54646;
+  font-size: 15px;
+  border: double;
+  margin-bottom: 40%;
+  position: absolute;
+   left:55%;
+   top:1%;
+   
+   width:44%;
+   height:49%;
+   overflow: hidden;
+}
+
+
+
+#demo {
+-webkit-box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.triangle {
+  position: relative;
+  background: #ad74c2;
+  height: 50vh;
+}
+
+.triangle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 239px 239px 0 239px;
+  border-color: #2c3e50 transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+}
+
+img{
+	width: 250px;
+	height:  225px;
+	padding: 35px;
+	background-color: mediumaquamarine;
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
